@@ -1,0 +1,59 @@
+﻿/*公告详情*/
+.cl_detail_left{ width:250px; float: left; background: #fff; box-shadow: 0 2px 9px 0 rgba(63,81,181,0.20); border-radius:5px; min-height: 426px; overflow: hidden; padding:20px 30px 34px;}
+.cl_detail_right{background: #fff; box-shadow: 0 2px 9px 0 rgba(63,81,181,0.20); border-radius:5px; margin-left:330px; min-height: 378px; padding:20px 30px 82px; overflow: hidden;}
+.cl_h3 h3{ color: #233539; margin-bottom: 8px}
+.cl_h3 span{ display: block; height: 2px; background:#4CAF50; width: 32px; }
+.cl_number{ display: block; font-size: 12px; color: #989898; margin-top:20px;}
+.cl_number em{color: #233539; margin-left:18px;}
+.cl_detail_left dl,.cl_detail_right dl{ display: block; margin-top:22px; }
+.cl_detail_left dl dt,.cl_detail_right dl dt{ display: block; color: #989898; margin-bottom: 11px;}
+.cl_detail_left dl dd,.cl_detail_right dl dd{ display: block; border:1px solid #e9eff4; border-radius: 4px; padding-left:10px; color: #323c47; height: 38px; line-height: 38px; }
+.cl_detail_right .cl_h3 span{ background: #FFA000; }
+.cl_detail_right dl dt{ color: #323c47; }
+.cl_detail_right dl dd{width:240px; color: #989898;}
+.cl_detail_right dl dd.cl_textarea{ border:1px solid #e9eff4; border-radius: 4px; padding:10px; color: #323c47; width:auto; height: 131px; line-height: 17px;}
+.cl_detail_download{ margin-top:27px; float: right; }
+.cl_detail_download span{ display: block; float: left; }
+.cl_detail_download span em{font-size: 12px; color: #323c47; float: left;line-height: 24px; }
+.cl_enclosure{}
+.cl_enclosure em{ }
+.cl_enclosure a{ display:inline-block;background: url(../images/enclosure.png) no-repeat;  margin-left:3px; height: 24px; line-height: 24px; font-size:12px; padding-left:32px;}
+.cl_train a{ display:inline-block;background: url(../images/train.png) no-repeat 20%; padding-left:20px; color:#4DA1FF;margin-top:3px; margin-left:21px;}
+
+/*登录*/
+.login_bg{ background: url(../images/cl_bg.jpg) no-repeat top center; width:100%; height: 100%; position: fixed;}
+.cl_sign{width:800px; height: 400px; position: absolute; left:50%; top:50%; margin-left:-400px; margin-top:-200px;}
+.cl_sign_content{ width: 100%; height: 100%;  background: #303f9f; border-radius: 2px; opacity: 0.77; filter:alpha(opacity=77); -moz-opacity:0.77;opacity:0.77;}
+.cl_sign_login{ width: 310px; height: 450px; position: absolute; top:-28px; left:24px; background: #fff; padding:50px 45px 0;}
+.cl_sin_right{ position: absolute; right:49px; top:0;}
+.cl_img{ display: block; width: 112px; height: 112px; margin:71px auto 10px; }
+.cl_sin_right_ew{ width: 278px; margin:0 auto; color: #fff; text-align: center;}
+.cl_trademak{ margin-top:55px; display: block; }
+.cl_trademak_img{ text-align: center;}
+.cl_mark_img{ background: url(../images/cl_trademark.png) no-repeat; width: 59px; height: 30px; background-size:100%; }
+.cl_mark_img1{background: url(../images/cl_trademark1.png) no-repeat; background-size:100%; width: 76px; height: 31px;}
+.cl_sign_login h3{ color: #303f9f; font-size:28px; margin-bottom:6px;}
+.cl_mark{ position: absolute; right:10px; top:41px;}
+.cl_mark_img,.cl_mark_img1{ display: inline-block; margin-right:10px;}
+.cl_mark_img{ width: 89px; height: 45px;}
+.cl_mark_img1{ width: 131px; height:53px; }
+.cl_logoin a{ color: #fff;  text-align: center; display: block; width: 311px; height: 46px; background: #303f9f; border-radius: 2px; line-height: 46px; margin-top:50px;}
+.cl_logoin dl{ display: block; width: 310px; height: 46px; border:1px solid #909acc; border-radius: 2px; background:rgba(255,255,255,0.20); margin-top:30px;}
+.cl_logoin dl dt{ display:block; width: 36px; height: 45px; float: left; }
+.cl_logoin dl dt.cl_user{ background:url(../images/User.png) no-repeat center; }
+.cl_logoin dl dt.cl_lock{background:url(../images/Lock.png) no-repeat center;}
+.cl_logoin dl dt dd{ display: block; float: left; }
+.cl_logoin input{ min-height:16px; padding:13px 0; width: 260px;}
+.cl_code{width:188px; margin-left:10px; border-right:1px solid #909acc; height: 20px; margin:13px 0 13px 10px; float: left;}
+.cl_code input{ width: 178px; padding:0;}
+.cl_Verification{ width:90px; float: left; margin-left:10px;}
+.cl_Verification img{ display: block; width: 100%; height: 35px; margin:5px auto; }
+
+
+.cl_sign_wtext{ margin:38px 0 0 50px; }
+.cl_sign_wtext{ margin:38px 0 0 50px; }
+.cl_trademak_img{ width: 105px; float: left; }
+.cl_xiand,.cl_xiand1{ display:inline-block;  margin-right: 10px; margin-top:5px;}
+.cl_xiand{ background: url(../images/cl_trademark.png) no-repeat; width: 37px; height: 19px; background-size:100%; float: left; opacity: 0.29; filter: alpha(opacity=29);}
+.cl_xiand1{background: url(../images/cl_trademark1.png) no-repeat; background-size:100%; width: 48px; height: 20px;opacity: 0.29;filter: alpha(opacity=29);}
+.cl_xd{ float: left; color: #fff; opacity: 0.29;filter: alpha(opacity=29); font-size:20px;}
